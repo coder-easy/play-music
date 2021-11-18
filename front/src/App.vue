@@ -1,4 +1,5 @@
 <template>
+  <PopUpInputName />
   <div class="wrapper">
     <Danmaku />
     <div class="bottom-wrap">
@@ -52,17 +53,7 @@ import Danmaku from "@/components/Danmaku/index.vue";
 import DanmakuSend from "@/components/Danmaku/send.vue";
 import ActionPanel from "@/components/ActionPanel/index.vue";
 import List from "@/components/List/index.vue";
-import {
-  START_RECORD,
-  STOP_RECORD,
-  PLAY_MUSIC,
-  STOP_MUSIC,
-  PLAY_PIANO,
-  SEND_DANMAKU,
-  LIST_CLICK,
-  USER_UPLINE,
-  USER_OFFLINE,
-} from "@/constants/event";
+import PopUpInputName from '@/components/PopUpsInputName/index.vue';
 import useRecordMusic from "@/hooks/useRecordMusic";
 import usePlayMusic from "@/hooks/usePlayMusic";
 import useUsers from "@/hooks/useUsers";

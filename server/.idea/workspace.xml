@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43655f2b-5143-4357-9635-ee6f0be7400f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../front/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front/.idea/front.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front/src/components/PopUpsInputName/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front/src/hooks/useLocalStorage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../front/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/components/Danmaku/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/components/Danmaku/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/hooks/useRecordMusic.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/hooks/useRecordMusic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/utils/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/utils/socket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="214ro5Id37cSgGbzFl8Xq94iWXP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43655f2b-5143-4357-9635-ee6f0be7400f" name="Changes" comment="" />
+      <created>1637211373320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637211373320</updated>
+      <workItem from="1637211374539" duration="319000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

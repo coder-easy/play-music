@@ -55,7 +55,7 @@ const handleDanmaku = (msg) => {
 const handleAnimationEnd = ({ target }) => {
   const { idx } = target.dataset;
   if (target.classList.contains("danmaku") && idx !== undefined) {
-    const index = danmakuList.value.findIndex((i) => i.idx == idx);
+    const index = danmakuList.value.findIndex((i) => i.idx === idx);
     index && danmakuList.value.splice(index, 1);
   }
 };

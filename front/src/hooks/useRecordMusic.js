@@ -2,11 +2,12 @@ import { ref } from "vue";
 import { USERNAME } from "@/constants/keys";
 import socket from "@/utils/socket";
 import { SEND_MUSIC } from "@/constants/event";
+import useLocalStorage from '@/hooks/useLocalStorage';
 
 export default function useRecordMusic() {
     const isRecord = ref(false);
     // 正在录制
-
+    const username = useLocalStorage(USERNAME);
     const soundIdRecord = ref([]);
     // 琴键数据
 
@@ -29,7 +30,7 @@ export default function useRecordMusic() {
         isRecord.value = false;
         soundIdRecord.value.length !== 0 &&
             socket.emit(SEND_MUSIC, {
-                user: window[USERNAME],
+                user: username,
                 timestamp: Date.now(),
                 data: soundIdRecord.value,
             });

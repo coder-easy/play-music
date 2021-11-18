@@ -8,10 +8,10 @@ import {
     NOTICE_UPLINE
 } from "@/constants/event";
 import { USERNAME } from "@/constants/keys";
+import useLocalStorage from '@/hooks/useLocalStorage';
 
 const { socketUrl } = config;
-
-
+const username = useLocalStorage(USERNAME);
 
 class Socket {
     constructor() {
@@ -31,7 +31,7 @@ class Socket {
         this.socket.on("connect", () => {
             console.log("Websocket connect success!");
             this.emit(NOTICE_UPLINE, {
-                user: window[USERNAME]
+                user: username
             });
         });
 
