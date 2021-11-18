@@ -31,7 +31,7 @@ class Socket {
         this.socket.on("connect", () => {
             console.log("Websocket connect success!");
             this.emit(NOTICE_UPLINE, {
-                user: username
+                user: username.value
             });
         });
 

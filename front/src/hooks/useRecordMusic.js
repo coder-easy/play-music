@@ -30,7 +30,7 @@ export default function useRecordMusic() {
         isRecord.value = false;
         soundIdRecord.value.length !== 0 &&
             socket.emit(SEND_MUSIC, {
-                user: username,
+                user: username.value,
                 timestamp: Date.now(),
                 data: soundIdRecord.value,
             });
